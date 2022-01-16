@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="count" attr.type="long"/>
+<key id="d3" for="edge" attr.name="label" attr.type="string"/>
+<key id="d2" for="edge" attr.name="id" attr.type="long"/>
+<key id="d1" for="node" attr.name="count" attr.type="long"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="-38">
+  <data key="d0">Chain</data>
+  <data key="d1">2</data>
+</node>
+<node id="-49">
+  <data key="d0">DAO</data>
+  <data key="d1">3</data>
+</node>
+<node id="-47">
+  <data key="d0">DAOHausDao</data>
+  <data key="d1">1617</data>
+</node>
+<node id="-48">
+  <data key="d0">DAOHausProposal</data>
+  <data key="d1">7708</data>
+</node>
+<node id="-46">
+  <data key="d0">DAOHausToken</data>
+  <data key="d1">445</data>
+</node>
+<node id="-42">
+  <data key="d0">DiscourseCategory</data>
+  <data key="d1">155</data>
+</node>
+<node id="-45">
+  <data key="d0">DiscoursePost</data>
+  <data key="d1">755</data>
+</node>
+<node id="-44">
+  <data key="d0">DiscourseTopic</data>
+  <data key="d1">7179</data>
+</node>
+<node id="-43">
+  <data key="d0">DiscourseUser</data>
+  <data key="d1">347</data>
+</node>
+<node id="-40">
+  <data key="d0">SnapshotProposal</data>
+  <data key="d1">6179</data>
+</node>
+<node id="-39">
+  <data key="d0">SnapshotSpace</data>
+  <data key="d1">4461</data>
+</node>
+<node id="-41">
+  <data key="d0">SnapshotStrategy</data>
+  <data key="d1">3537</data>
+</node>
+<node id="-50">
+  <data key="d0">User</data>
+  <data key="d1">6</data>
+</node>
+<node id="-37">
+  <data key="d0">Wallet</data>
+  <data key="d1">596112</data>
+</node>
+<edge source="-47" target="-49">
+  <data key="d2">-145</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-47" target="-37">
+  <data key="d2">-164</data>
+  <data key="d3">isContractAt</data>
+  <data key="d4">2062</data>
+</edge>
+<edge source="-47" target="-38">
+  <data key="d2">-162</data>
+  <data key="d3">isOn</data>
+  <data key="d4">2062</data>
+</edge>
+<edge source="-48" target="-47">
+  <data key="d2">-149</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-46" target="-37">
+  <data key="d2">-163</data>
+  <data key="d3">isContractAt</data>
+  <data key="d4">2062</data>
+</edge>
+<edge source="-46" target="-38">
+  <data key="d2">-161</data>
+  <data key="d3">isOn</data>
+  <data key="d4">2062</data>
+</edge>
+<edge source="-42" target="-49">
+  <data key="d2">-130</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-45" target="-44">
+  <data key="d2">-138</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-44" target="-42">
+  <data key="d2">-132</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-43" target="-45">
+  <data key="d2">-154</data>
+  <data key="d3">isAuthorOf
+hasLiked</data>
+  <data key="d4">6934</data>
+</edge>
+<edge source="-40" target="-39">
+  <data key="d2">-121</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-39" target="-41">
+  <data key="d2">-115</data>
+  <data key="d3">hasStrategy</data>
+  <data key="d4">6221</data>
+</edge>
+<edge source="-39" target="-49">
+  <data key="d2">-120</data>
+  <data key="d3">isPartOf</data>
+  <data key="d4">21831</data>
+</edge>
+<edge source="-50" target="-37">
+  <data key="d2">-174</data>
+  <data key="d3">isWallet</data>
+  <data key="d4">6</data>
+</edge>
+<edge source="-50" target="-43">
+  <data key="d2">-175</data>
+  <data key="d3">isUser</data>
+  <data key="d4">4</data>
+</edge>
+<edge source="-37" target="-48">
+  <data key="d2">-156</data>
+  <data key="d3">hasVotedOn
+isProcessorOf
+isProposerOf
+isDelegateKeyOf
+isApplicantOf
+isSponsorOf</data>
+  <data key="d4">576685</data>
+</edge>
+<edge source="-37" target="-47">
+  <data key="d2">-167</data>
+  <data key="d3">isKicked
+hasSummoned
+hasShares
+hasLoot
+isMemberOf</data>
+  <data key="d4">57</data>
+</edge>
+<edge source="-37" target="-40">
+  <data key="d2">-155</data>
+  <data key="d3">hasVotedOn
+isAuthorOf</data>
+  <data key="d4">576685</data>
+</edge>
+<edge source="-37" target="-39">
+  <data key="d2">-158</data>
+  <data key="d3">isMemberOf
+isAdminOf</data>
+  <data key="d4">29623</data>
+</edge>
+</graph></graphml>
