@@ -1,0 +1,520 @@
+[
+  {
+    "nodes": [
+      {
+        "identity": -38,
+        "labels": [
+          "Chain"
+        ],
+        "properties": {
+"name": "Chain",
+"count": 2
+        }
+      },
+      {
+        "identity": -49,
+        "labels": [
+          "DAO"
+        ],
+        "properties": {
+"name": "DAO",
+"count": 3
+        }
+      },
+      {
+        "identity": -47,
+        "labels": [
+          "DAOHausDao"
+        ],
+        "properties": {
+"name": "DAOHausDao",
+"count": 1617
+        }
+      },
+      {
+        "identity": -48,
+        "labels": [
+          "DAOHausProposal"
+        ],
+        "properties": {
+"name": "DAOHausProposal",
+"count": 7708
+        }
+      },
+      {
+        "identity": -46,
+        "labels": [
+          "DAOHausToken"
+        ],
+        "properties": {
+"name": "DAOHausToken",
+"count": 445
+        }
+      },
+      {
+        "identity": -42,
+        "labels": [
+          "DiscourseCategory"
+        ],
+        "properties": {
+"name": "DiscourseCategory",
+"count": 155
+        }
+      },
+      {
+        "identity": -45,
+        "labels": [
+          "DiscoursePost"
+        ],
+        "properties": {
+"name": "DiscoursePost",
+"count": 755
+        }
+      },
+      {
+        "identity": -44,
+        "labels": [
+          "DiscourseTopic"
+        ],
+        "properties": {
+"name": "DiscourseTopic",
+"count": 7179
+        }
+      },
+      {
+        "identity": -43,
+        "labels": [
+          "DiscourseUser"
+        ],
+        "properties": {
+"name": "DiscourseUser",
+"count": 347
+        }
+      },
+      {
+        "identity": -40,
+        "labels": [
+          "SnapshotProposal"
+        ],
+        "properties": {
+"name": "SnapshotProposal",
+"count": 6179
+        }
+      },
+      {
+        "identity": -39,
+        "labels": [
+          "SnapshotSpace"
+        ],
+        "properties": {
+"name": "SnapshotSpace",
+"count": 4461
+        }
+      },
+      {
+        "identity": -41,
+        "labels": [
+          "SnapshotStrategy"
+        ],
+        "properties": {
+"name": "SnapshotStrategy",
+"count": 3537
+        }
+      },
+      {
+        "identity": -50,
+        "labels": [
+          "User"
+        ],
+        "properties": {
+"name": "User",
+"count": 6
+        }
+      },
+      {
+        "identity": -37,
+        "labels": [
+          "Wallet"
+        ],
+        "properties": {
+"name": "Wallet",
+"count": 596112
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "identity": -132,
+        "start": -44,
+        "end": -42,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 7182,
+"out": 7182
+        }
+      },
+      {
+        "identity": -115,
+        "start": -39,
+        "end": -41,
+        "type": "hasStrategy",
+        "properties": {
+"count": 6221,
+"type": "hasStrategy",
+"in": 6221,
+"out": 6221
+        }
+      },
+      {
+        "identity": -156,
+        "start": -37,
+        "end": -48,
+        "type": "hasVotedOn",
+        "properties": {
+"count": 576685,
+"type": "hasVotedOn",
+"in": 10482,
+"out": 576685
+        }
+      },
+      {
+        "identity": -167,
+        "start": -37,
+        "end": -47,
+        "type": "isKicked",
+        "properties": {
+"count": 57,
+"type": "isKicked",
+"in": 57,
+"out": 57
+        }
+      },
+      {
+        "identity": -120,
+        "start": -39,
+        "end": -49,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 7,
+"out": 1
+        }
+      },
+      {
+        "identity": -155,
+        "start": -37,
+        "end": -40,
+        "type": "hasVotedOn",
+        "properties": {
+"count": 576685,
+"type": "hasVotedOn",
+"in": 566203,
+"out": 576685
+        }
+      },
+      {
+        "identity": -172,
+        "start": -37,
+        "end": -48,
+        "type": "isProcessorOf",
+        "properties": {
+"count": 7708,
+"type": "isProcessorOf",
+"in": 7708,
+"out": 7708
+        }
+      },
+      {
+        "identity": -130,
+        "start": -42,
+        "end": -49,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 7,
+"out": 2
+        }
+      },
+      {
+        "identity": -163,
+        "start": -46,
+        "end": -37,
+        "type": "isContractAt",
+        "properties": {
+"count": 2062,
+"type": "isContractAt",
+"in": 2062,
+"out": 445
+        }
+      },
+      {
+        "identity": -145,
+        "start": -47,
+        "end": -49,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 7,
+"out": 4
+        }
+      },
+      {
+        "identity": -158,
+        "start": -37,
+        "end": -39,
+        "type": "isMemberOf",
+        "properties": {
+"count": 29623,
+"type": "isMemberOf",
+"in": 19004,
+"out": 29623
+        }
+      },
+      {
+        "identity": -154,
+        "start": -43,
+        "end": -45,
+        "type": "isAuthorOf",
+        "properties": {
+"count": 6934,
+"type": "isAuthorOf",
+"in": 755,
+"out": 755
+        }
+      },
+      {
+        "identity": -149,
+        "start": -48,
+        "end": -47,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 7708,
+"out": 7708
+        }
+      },
+      {
+        "identity": -164,
+        "start": -47,
+        "end": -37,
+        "type": "isContractAt",
+        "properties": {
+"count": 2062,
+"type": "isContractAt",
+"in": 2062,
+"out": 1617
+        }
+      },
+      {
+        "identity": -170,
+        "start": -37,
+        "end": -48,
+        "type": "isProposerOf",
+        "properties": {
+"count": 7708,
+"type": "isProposerOf",
+"in": 7708,
+"out": 7708
+        }
+      },
+      {
+        "identity": -173,
+        "start": -37,
+        "end": -47,
+        "type": "hasSummoned",
+        "properties": {
+"count": 1609,
+"type": "hasSummoned",
+"in": 1609,
+"out": 1609
+        }
+      },
+      {
+        "identity": -168,
+        "start": -37,
+        "end": -48,
+        "type": "isDelegateKeyOf",
+        "properties": {
+"count": 7708,
+"type": "isDelegateKeyOf",
+"in": 7708,
+"out": 7708
+        }
+      },
+      {
+        "identity": -169,
+        "start": -37,
+        "end": -48,
+        "type": "isApplicantOf",
+        "properties": {
+"count": 7708,
+"type": "isApplicantOf",
+"in": 7708,
+"out": 7708
+        }
+      },
+      {
+        "identity": -166,
+        "start": -37,
+        "end": -47,
+        "type": "hasShares",
+        "properties": {
+"count": 10619,
+"type": "hasShares",
+"in": 10619,
+"out": 10619
+        }
+      },
+      {
+        "identity": -160,
+        "start": -43,
+        "end": -45,
+        "type": "hasLiked",
+        "properties": {
+"count": 538,
+"type": "hasLiked",
+"in": 538,
+"out": 538
+        }
+      },
+      {
+        "identity": -151,
+        "start": -37,
+        "end": -40,
+        "type": "isAuthorOf",
+        "properties": {
+"count": 6934,
+"type": "isAuthorOf",
+"in": 6179,
+"out": 6179
+        }
+      },
+      {
+        "identity": -174,
+        "start": -50,
+        "end": -37,
+        "type": "isWallet",
+        "properties": {
+"count": 6,
+"type": "isWallet",
+"in": 6,
+"out": 6
+        }
+      },
+      {
+        "identity": -161,
+        "start": -46,
+        "end": -38,
+        "type": "isOn",
+        "properties": {
+"count": 2062,
+"type": "isOn",
+"in": 2062,
+"out": 445
+        }
+      },
+      {
+        "identity": -121,
+        "start": -40,
+        "end": -39,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 6179,
+"out": 6179
+        }
+      },
+      {
+        "identity": -175,
+        "start": -50,
+        "end": -43,
+        "type": "isUser",
+        "properties": {
+"count": 4,
+"type": "isUser",
+"in": 4,
+"out": 4
+        }
+      },
+      {
+        "identity": -138,
+        "start": -45,
+        "end": -44,
+        "type": "isPartOf",
+        "properties": {
+"count": 21831,
+"type": "isPartOf",
+"in": 755,
+"out": 755
+        }
+      },
+      {
+        "identity": -157,
+        "start": -37,
+        "end": -39,
+        "type": "isAdminOf",
+        "properties": {
+"count": 4275,
+"type": "isAdminOf",
+"in": 4275,
+"out": 4275
+        }
+      },
+      {
+        "identity": -171,
+        "start": -37,
+        "end": -48,
+        "type": "isSponsorOf",
+        "properties": {
+"count": 7708,
+"type": "isSponsorOf",
+"in": 7708,
+"out": 7708
+        }
+      },
+      {
+        "identity": -165,
+        "start": -37,
+        "end": -47,
+        "type": "hasLoot",
+        "properties": {
+"count": 10619,
+"type": "hasLoot",
+"in": 10619,
+"out": 10619
+        }
+      },
+      {
+        "identity": -162,
+        "start": -47,
+        "end": -38,
+        "type": "isOn",
+        "properties": {
+"count": 2062,
+"type": "isOn",
+"in": 2062,
+"out": 1617
+        }
+      },
+      {
+        "identity": -159,
+        "start": -37,
+        "end": -47,
+        "type": "isMemberOf",
+        "properties": {
+"count": 29623,
+"type": "isMemberOf",
+"in": 10619,
+"out": 29623
+        }
+      }
+    ]
+  }
+]
